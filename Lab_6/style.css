@@ -1,0 +1,27 @@
+h1 {text-align:center; color:#0000FF; font-family:Verdana; font-size: 20pt}
+h2 {text-align: right; color:#800000; font-family: Verdana; font-size: 16pt;}
+p {text-align: justify; color: #191970; font-family: Arial; font-size: 12pt; font-weight: bold;}
+body {background-image: url(../public_html/fon9.jpg);}
+h3 {color: #0000FF; font-family: Arial;}
+#ol {list-style-type: upper-roman; color: #a36a00; font-weight: bold; font-family: Arial;}
+#ul {list-style-image: url(../public_html/spisok_1.gif); color: #a36a00; font-weight: bold; font-family: Arial;}
+
+
+p.blue{color: navy; font-family: Verdana; text-align: center; font-size: 12pt;}
+p.lightblue{color: blue; text-align: left; font-size: 13pt; font-family: serif; }
+p.red{color: red; text-align: right; font-size: 12pt; font-family: Verdana; }
+p.green{color: green; text-align: left; font-size: 13pt; font-family: Arial; }
+p.yellow{color: orange; text-align: center; font-size: 13pt; font-family: Arial; }
+
+#blue{color: #0000CC; font-family: Tahoma; list-style-type: decimal;}
+#blue_2{color: #3366FF; font-family: Tahoma;}
+#brown{color: #996633; font-family: Times;}
+#brown_2{color: #CC6600; font-family: Times;}
+
+
+#blue_2_menu{color: #3366FF; font-family: Tahoma; font-weight:normal; }
+#brown_2_menu{color: #CC6600; font-family: Times; font-weight:normal;}
+body{background-color: #CCFFFF;}
+a:link{color: #0000CC; text-decoration:none; font-family: Arial; font-size:13pt; }
+a:visited {color: #0000CC; text-decoration:none}
+a:hover {text-decoration:underline; color: #FFD700;}

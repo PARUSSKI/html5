@@ -1,0 +1,29 @@
+h1 {text-align:center; color:#0000FF; font-family:Verdana; font-size: 20pt}
+h2 {text-align: right; color:#800000; font-family: Verdana; font-size: 16pt;}
+p {text-align: justify; color: #191970; font-family: Arial; font-size: 12pt; font-weight: bold;}
+body {background-image: url(fon9.jpg);}
+h3 {color: #0000FF; font-family: Arial;}
+ol {list-style-type: upper-roman; color: #a36a00; font-weight: bold; font-family: Arial;}
+ul {list-style-image: url(spisok_1.gif); color: #a36a00; font-weight: bold; font-family: Arial;}
+hr {color: #0000FF; width: 75%; size: 25px;}
+
+h1.main, h1.golub, h1.krasn, h1.zelen, h1.oranzhev{
+	color: navy; font-family: Verdana; text-align: left; font-size: 14pt;
+}
+h1.main{color: navy; }
+h1.golub{color: blue;}
+h1.krasn{color: red; }
+h1.zelen{color: green; }
+h1.oranzhev{color: orange; }
+
+p.blue{color: navy; font-family: Verdana; text-align: center; font-size: 12pt;}
+p.lightblue{color: blue; text-align: left; font-size: 13pt; font-family: serif; }
+p.red{color: red; text-align: right; font-size: 12pt; font-family: Verdana; }
+p.green{color: green; text-align: left; font-size: 13pt; font-family: Arial; }
+p.yellow{color: orange; text-align: center; font-size: 13pt; font-family: Arial; }
+
+#blue{color: #0000CC; font-family: Tahoma; list-style-type: decimal;}
+#blue_2{color: #3366FF; font-family: Tahoma;}
+#brown{color: #996633; font-family: Times;}
+#brown_2{color: #CC6600; font-family: Times;}
+

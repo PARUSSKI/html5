@@ -1,0 +1,3 @@
+a:link{color: navy; text-decoration:none; }
+a:visited {color:navy; text-decoration:none;  } 
+a:hover {text-decoration:underline; color:red; }

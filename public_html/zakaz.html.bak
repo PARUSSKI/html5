@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Заказ проекта</title>
+	</head>
+	<body bgcolor="#FFFBF0" alink="#DAA520">
+		<h1>Заказ проекта</h1>
+		<p>Вы можете послать письмо на наш электронный адрес</p>
+		<p> <a href="mailto:super.pegase@yandex.ru">Написать письмо</a> </p>
+		<p>Здесь Вы можете заполнить форму заказа для покупки проекта <br />Поля со <sup style="color: red;">*</sup> обязательны для заполнения</p>
+
+		<table border="1">
+			<form>
+				<tr>
+				<td>Текст заказа в произвольной форме:</td>
+				<td> <textarea name="address" rows="10" cols="50"> </textarea> </td>
+			</tr>
+			<tr>
+				<td>Фамилия, имя, отчество<sup style="color: red;">*</sup></td>
+				<td> <input type="text" name="fio"> </textarea> </td>
+			</tr>
+			<tr>
+				<td>Телефон<sup style="color: red;">*</sup></td>
+				<td> <input type="text" name="phone"> </td>
+			</tr>
+			<tr>
+				<td>E-mail<sup style="color: red;">*</sup></td>
+				<td> <input type="text" name="email"> </td>
+			</tr>
+			<tr>
+				<td>Адрес<sup style="color: red;">*</sup></td>
+				<td> <input type="text" name="adress" > </td>
+			</tr>
+			<tr>
+				<td>Выберите категорию проекта:</td>
+				<td>
+					<select name="kategoria">
+						<option  value="townhouse" /> Проекты таунхаусов и блокированных домов
+						<option value="two_family">Проекты домов на две семьи</option>
+						<option selected value="uzkie">Проекты узких домов</option>
+						<option value="banya">Проекты бань</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Выберите материал:</td>
+				<td>
+					<select name="material">
+							<option value="kirpich">Проекты кирпичных домов</option>
+							<option value="gazo_peno">Проекты домов из газобетона и пенобетона</option>
+							<option value="brus_brevno">Проекты домов из бруса и бревна</option>
+							<option value="karkas">Проекты каркасных домов</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Ваш возраст:</td>
+				<td>					
+					<table>
+						<tr>
+							<td>до 18</td>
+							<td> <input type="radio" name="age" value="answer1"> </td>
+						</tr>
+						<tr>
+							<td>18-50</td>
+							<td> <input type="radio" name="age" value="answer2"> </td>
+						</tr>
+						<tr>
+							<td>Старше 50</td>
+							<td> <input type="radio" name="age" value="answer3"> </td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+				
+		</table>
+		<input  type="submit" value="Отправить" />
+		<input  type="reset" value="Очистить" />
+		</form>		
+	</body>
+</html>

@@ -1,0 +1,14 @@
+body{background: #FFFBF0;}
+h1 {color:navy; font-family:Verdana; font-size: 20pt}
+h3{color: navy; font-family: Verdana; }
+ul{color: #228B22; font-weight: bold; font-family: Verdana; font-size: 11pt;}
+p.black {font-family: Arial; align-content: justify;}
+td {font-family: Verdana; font-size: 11pt;}
+td.blue {font-family: Verdana; color: navy; background: #87CEFA;}
+td.textBlue{font-family: Verdana; color: navy;}
+td.violet{font-weight: bold; background: #E6E6FA;}
+ul.withoutDots{list-style-type: none;}
+p.up{font-family: Verdana; color: #228B22; font-weight: bold;}
+a:link{color:#228B22; text-decoration:none; font-family: Verdana;}
+a:hover {text-decoration:underline; color: #D2691E; font-family: Verdana;}
+a:visited {color:#228B22; text-decoration:none; font-family: Verdana;}
